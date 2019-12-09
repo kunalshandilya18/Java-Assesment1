@@ -1,0 +1,7 @@
+
+\squid:S1989"'Add a "try/catch" block for "parseInt".(ží¤­ÿÿÿÿÿHÃ!RMINORZVULNERABILITY
+qsquid:S2441"FMake "EmployeeInfoBean" serializable or don't store it in the session.(É¶·²ùÿÿÿÿHÂ!RMAJORZBUG
+Vsquid:S1989"&Add a "try/catch" block for "forward".(¯Û„ÌHÁ!RMINORZVULNERABILITY
+[squid:S1989"&Add a "try/catch" block for "forward".(Ñ¡®ÔùÿÿÿÿHÀ!RMINORZVULNERABILITY
+[squid:S1989"&Add a "try/catch" block for "forward".(Ñ¡®ÔùÿÿÿÿH¾!RMINORZVULNERABILITY
+Vsquid:S1989"&Add a "try/catch" block for "forward".(¯Û„ÌHÄ!RMINORZVULNERABILITY

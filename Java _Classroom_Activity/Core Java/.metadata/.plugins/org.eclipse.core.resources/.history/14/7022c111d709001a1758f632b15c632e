@@ -1,0 +1,11 @@
+
+public class CalcFactorial implements Factorial {
+
+	@Override
+	public int fact(int n) {
+		
+		
+		return 0;
+	}
+
+}

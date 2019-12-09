@@ -1,0 +1,10 @@
+
+public class StudentResults implements Student {
+
+	@Override
+	public void results() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

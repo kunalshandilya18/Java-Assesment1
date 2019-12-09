@@ -1,0 +1,11 @@
+package com.manthan.object.test;
+
+public class Student {
+	String name;
+	int id;
+	double per;
+	
+		
+	
+
+}

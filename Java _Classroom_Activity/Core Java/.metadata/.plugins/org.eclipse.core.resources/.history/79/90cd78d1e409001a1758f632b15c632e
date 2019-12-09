@@ -1,0 +1,9 @@
+
+public class StudentREsTest {
+	
+	public static void main(String[] args) {
+		
+		StudentREsTest rst=new StudentREsTest();
+	}
+
+}

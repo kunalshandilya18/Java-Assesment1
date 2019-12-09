@@ -1,0 +1,10 @@
+
+public class BMITEst {
+	public static void main(String[] args) {
+		
+		BMI b=(weight,height)->(weight)/((height)*(height));
+		System.out.println(b);
+		
+	}
+
+}

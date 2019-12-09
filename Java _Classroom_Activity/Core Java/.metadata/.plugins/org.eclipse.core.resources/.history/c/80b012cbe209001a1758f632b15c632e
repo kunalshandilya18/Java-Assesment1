@@ -1,0 +1,13 @@
+
+public class CalcBMI implements BMI{
+
+	@Override
+	public void bmi(double h, int w) {
+		
+		
+		BMI bmi=(h,w)->{
+			
+		};
+	}
+
+}

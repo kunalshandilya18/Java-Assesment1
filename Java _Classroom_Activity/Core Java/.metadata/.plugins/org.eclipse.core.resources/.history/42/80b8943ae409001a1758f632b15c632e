@@ -1,0 +1,12 @@
+
+public class StudentResults implements Student {
+
+	@Override
+	public double results(double marks) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+}

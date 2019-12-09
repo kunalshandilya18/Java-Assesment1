@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="Calculator"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="DBUtil"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Lion"/>
+<fullyQualifiedTypeName name="Animal"/>
+<fullyQualifiedTypeName name="Cow"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="Sound"/>
+<fullyQualifiedTypeName name="Food"/>
+<fullyQualifiedTypeName name="SimpleInterest"/>
+<fullyQualifiedTypeName name="Factorial"/>
+<fullyQualifiedTypeName name="CalcSimpleInterest"/>
+<fullyQualifiedTypeName name="CalcFactorial"/>
+<fullyQualifiedTypeName name="CalcBMI"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="StudentREsTest"/>
+<fullyQualifiedTypeName name="StudentResults"/>
+<fullyQualifiedTypeName name="ImmutableClass"/>
+</qualifiedTypeNameHistroy>

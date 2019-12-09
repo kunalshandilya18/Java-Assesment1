@@ -1,0 +1,22 @@
+
+public class ImmutableClass {
+
+	final String name; 
+	final int regNo; 
+
+	public ImmutableClass(String name, int rno) 
+	{ 
+		this.name = name; 
+		this.rno = rno; 
+	} 
+	public String getName() 
+	{ 
+		return name; 
+	} 
+	public int getRegNo() 
+	{ 
+		return regNo; 
+	} 
+} 
+
+

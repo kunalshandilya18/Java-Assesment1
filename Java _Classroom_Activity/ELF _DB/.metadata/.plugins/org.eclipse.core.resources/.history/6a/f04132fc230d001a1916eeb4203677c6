@@ -1,0 +1,16 @@
+package com.manthan.util;
+
+import com.manthan.empwebapp.dao.EmployeeDAO;
+import com.manthan.empwebapp.dao.EmployeeDAOImpl;
+
+public class UserDaoImplManager {
+	
+private EmpDAOImplManager() {
+		
+	}
+	public static EmployeeDAO getDaoInstance() {
+		return new EmployeeDAOImpl();
+		
+	}
+
+}

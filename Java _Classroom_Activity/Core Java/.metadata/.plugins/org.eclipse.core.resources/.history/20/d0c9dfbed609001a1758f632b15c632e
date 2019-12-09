@@ -1,0 +1,18 @@
+
+public class CalcFactorial implements Factorial {
+
+	@Override
+	public int fact(int n) {
+		
+		Factorial f= new Factorial();
+			
+			@Override
+			public int fact(int n) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		};
+		return 0;
+	}
+
+}

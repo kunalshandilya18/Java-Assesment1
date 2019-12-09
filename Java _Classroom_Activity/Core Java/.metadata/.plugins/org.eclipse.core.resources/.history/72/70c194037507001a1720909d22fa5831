@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Filter {
+
+	@Test
+	
+		void testMyFilter() {
+			DBUtil db=mock(DBUtil.class);
+		}
+	
+
+}

@@ -1,0 +1,10 @@
+
+public class BMITEst {
+	public static void main(String[] args) {
+		
+		
+		CalcBMI cbmi=new CalcBMI();
+		cbmi.bmi(1.7, 60);
+	}
+
+}

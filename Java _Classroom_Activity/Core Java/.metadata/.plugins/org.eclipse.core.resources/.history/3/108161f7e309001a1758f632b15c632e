@@ -1,0 +1,6 @@
+
+public interface BMI {
+	
+	public void bmi(double h,int w);
+
+}

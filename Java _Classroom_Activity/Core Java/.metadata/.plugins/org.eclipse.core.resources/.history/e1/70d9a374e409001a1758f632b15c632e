@@ -1,0 +1,16 @@
+
+public class StudentResults implements Student {
+
+	@Override
+	public boolean results(double marks) {
+		
+		Student s=(m)->{
+			
+		};
+		return true;
+		
+	}
+
+	
+
+}

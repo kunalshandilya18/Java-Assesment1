@@ -1,0 +1,23 @@
+
+public class StudentResults implements Student {
+
+	@Override
+	public boolean results(double marks) {
+		
+		Student s=(m)->{
+			
+			double m1=m;
+			
+			if(m1>=35) {
+				return true;
+			}
+			
+			
+		};
+		return true;
+		
+	}
+
+	
+
+}

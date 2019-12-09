@@ -1,0 +1,9 @@
+
+public class Filter {
+	private DBUtil dbUtil;
+	
+	public Filter(DBUtil dbUtil) {
+		this.dbUtil=dbUtil;
+	}
+
+}

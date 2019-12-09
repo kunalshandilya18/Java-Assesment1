@@ -1,0 +1,20 @@
+
+public class CalcFactorial implements Factorial {
+
+	@Override
+	public int fact(int n) {
+		Factorial f=(n1)->{
+			int i;
+			int fact=1;
+			for(i=1;i<=n1;i++) {
+				fact=fact*i;
+				System.out.println("Factorial is "+fact);
+			}
+			return n1;
+			
+		};
+		System.out.println("Fact");
+		return 0;
+	}
+
+}

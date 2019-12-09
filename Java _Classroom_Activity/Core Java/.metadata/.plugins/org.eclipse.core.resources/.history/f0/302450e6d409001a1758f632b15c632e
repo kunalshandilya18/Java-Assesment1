@@ -1,0 +1,11 @@
+
+public class CalcSimpleInterest implements SimpleInterest{
+
+	@Override
+	public int simpleInterest(double r, int t, int p) {
+		
+		SimpleInterest si=(p,r,t)->(p*r*t)/100;
+		return 0;
+	}
+
+}

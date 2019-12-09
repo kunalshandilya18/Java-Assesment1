@@ -1,0 +1,16 @@
+
+public class FactorialTest {
+	
+	public static void main(String[] args) {
+		 
+		Factorial f=(n1)->{
+			int i;
+			int fact=1;
+			for(i=1;i<=n1;i++) {
+				fact=fact*i;
+				
+				
+			}
+
+		}
+	}

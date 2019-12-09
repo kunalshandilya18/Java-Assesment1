@@ -1,0 +1,28 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorTest2 {
+	
+	Calculator c;
+
+	 @Test
+	 public void testAdd() {
+		 c=new Calculator();
+		 int res=c.add(10, 20);
+		 assertEquals(30, res);
+	 }
+	 @Test
+	 public void divTest() {
+		 c=new Calculator();
+		 int res=c.div(50, 10);
+		 assertEquals(5, res);
+	 }
+	 @Test
+	 public void testDivForException() {
+		 c=new Calculator();
+		 assertThrows(ArithmeticException.class, ()->c.div(10,0));
+	 }
+	 
+
+}

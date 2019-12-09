@@ -1,0 +1,15 @@
+
+public class TestImmutable {
+	public static void main(String[] args) {
+		
+		 ImmutableClass s = new Student("ABC", 101); 
+	        System.out.println(s.getName()); 
+	        System.out.println(s.getRegNo()); 
+	  
+	        // Uncommenting below line causes error 
+	        // s.regNo = 102; 
+	    } 
+	} 
+	}
+
+}

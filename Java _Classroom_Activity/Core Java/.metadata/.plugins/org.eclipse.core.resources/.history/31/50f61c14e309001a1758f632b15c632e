@@ -1,0 +1,17 @@
+
+public class CalcBMI implements BMI{
+
+	@Override
+	public void bmi(double h, int w) {
+		
+		
+		BMI bmi=(h1,w1)->{
+			
+			int height;
+			int weight;
+			int BMI=weight/(height)*(height);
+			
+		};
+	}
+
+}

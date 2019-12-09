@@ -1,0 +1,10 @@
+
+public class SITest {
+	
+	public static void main(String[] args) {
+		
+		
+		CalcSimpleInterest csi=new CalcSimpleInterest();
+	}
+
+}

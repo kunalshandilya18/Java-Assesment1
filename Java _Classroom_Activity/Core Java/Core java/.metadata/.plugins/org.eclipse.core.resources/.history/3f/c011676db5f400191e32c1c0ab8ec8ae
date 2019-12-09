@@ -1,0 +1,12 @@
+package com.manthan.object.test;
+
+public class TestA extends Student{
+	public static void main(String[] args) {
+		Student s=new Student("Priya",1,76.9);
+		int i=s.hashCode();
+		System.out.println(i);
+		String n=s.toString();
+		System.out.println(n);
+	}
+
+}
