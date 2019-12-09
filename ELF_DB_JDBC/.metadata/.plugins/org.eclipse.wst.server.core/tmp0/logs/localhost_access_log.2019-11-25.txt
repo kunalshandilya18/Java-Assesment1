@@ -1,0 +1,14 @@
+127.0.0.1 - - [25/Nov/2019:16:47:09 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [25/Nov/2019:18:44:37 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:45:33 +0530] "GET /empwebapp/addEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:45:34 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:45:59 +0530] "POST /empwebapp/addEmployee HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:46:06 +0530] "POST /empwebapp/addEmployee HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:54:28 +0530] "GET /empwebapp/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:54:44 +0530] "POST /empwebapp/login HTTP/1.1" 500 38
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:56:25 +0530] "GET /empwebapp/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:56:26 +0530] "GET /empwebapp/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:56:49 +0530] "POST /empwebapp/login HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:57:10 +0530] "GET /empwebapp/searchEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:57:12 +0530] "GET /empwebapp/updateEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2019:18:57:14 +0530] "GET /empwebapp/deleteEmployee.html HTTP/1.1" 304 -

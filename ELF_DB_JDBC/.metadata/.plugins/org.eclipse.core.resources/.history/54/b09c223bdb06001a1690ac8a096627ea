@@ -1,0 +1,27 @@
+package com.manthan.files;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class TestReadProprties {
+	public static void main(String[] args) {
+		
+		
+		try {
+			FileInputStream fin=new FileInputStream("myDBConfig.properties");
+			
+			Properties pr=new Properties();
+			pr.load(fin);
+			
+			String user=pr.getProperty("user");
+			String url=pr.getProperty("url");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

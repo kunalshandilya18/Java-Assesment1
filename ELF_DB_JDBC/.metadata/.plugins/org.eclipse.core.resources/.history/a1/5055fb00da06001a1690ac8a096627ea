@@ -1,0 +1,19 @@
+package com.manthan.files;
+
+import java.io.FileOutputStream;
+import java.util.Properties;
+
+public class TestProperties {
+	public static void main(String[] args) {
+		Properties pr=new Properties();
+		
+		pr.setProperty("driver name", "com.mysql.jdbcDriver");
+		pr.setProperty("url", "jdbc:mysql://localhost:3306");
+		pr.setProperty("user", "scott");
+		pr.setProperty("password", "root");
+		
+		FileOutputStream fout=new FileOutputStream("myDBConfig.properties");
+		
+	}
+
+}

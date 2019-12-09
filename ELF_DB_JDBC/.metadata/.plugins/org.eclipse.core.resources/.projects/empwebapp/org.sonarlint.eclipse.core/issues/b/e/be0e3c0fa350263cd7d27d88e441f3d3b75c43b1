@@ -1,0 +1,7 @@
+
+[squid:S1989+"&Add a "try/catch" block for "include".(ôóš¸ÿÿÿÿÿHÆRMINORZVULNERABILITY
+\squid:S1989"'Add a "try/catch" block for "parseInt".(º×è¯ýÿÿÿÿHÂRMINORZVULNERABILITY
+Xsquid:S1989"(Add a "try/catch" block for "getWriter".(¾šçÞHÅRMINORZVULNERABILITY
+[squid:S1989+"&Add a "try/catch" block for "include".(ôóš¸ÿÿÿÿÿHÄRMINORZVULNERABILITY
+qsquid:S2441"FMake "EmployeeInfoBean" serializable or don't store it in the session.(·…Ü²üÿÿÿÿHÃRMAJORZBUG
+ƒsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(‚…ÝûøÿÿÿÿHÇRMAJORZBUG
