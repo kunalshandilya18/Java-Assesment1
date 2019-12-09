@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\CBT\Desktop\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\463809775.index
-\EmpWebApp\src
-C:\Users\CBT\Desktop\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3118955014.index
-\EmpWebApp\src
-C:\Users\CBT\Desktop\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3268989307.index
-\EmpWebApp\src

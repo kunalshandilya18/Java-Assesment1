@@ -1,6 +1,0 @@
-
-\squid:S1989"'Add a "try/catch" block for "parseInt".(ží¤­ÿÿÿÿÿHÇ!RMINORZVULNERABILITY
-asquid:S1125""(Remove the literal "true" boolean value.(…¶áËúÿÿÿÿ8’Œ°‡ë-HÊ!RMINORZ
-CODE_SMELL
-]squid:S1989"(Add a "try/catch" block for "parseLong".(ÓŠÑüþÿÿÿÿHÆ!RMINORZVULNERABILITY
-Xsquid:S1989"(Add a "try/catch" block for "getWriter".(¾šçÞHÉ!RMINORZVULNERABILITY
