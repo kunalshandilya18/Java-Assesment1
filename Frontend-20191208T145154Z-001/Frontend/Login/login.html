@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/bootstrap-4.3.1-dist/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="/jQuery-3.3.1/jquery-3.3.1.slim.min.js" ></script>
+    <script src="/popper.js/popper.min.js" ></script>
+    <script src="/Question_3/js/question_3.js"></script>
+    <link rel="stylesheet" href="/Question_3/css/question_3.css">
+    <title>Home</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+                <a class="nav-item nav-link" href="" id="show_Images">Home</a>
+                <a class="nav-item nav-link" href="#" id="show_Login">Login</a>
+                <a class="nav-item nav-link" href="#" id="show_Register">Create Account</a>
+          </div>
+        </div>
+    </nav>
+    <br>
+    <div id="imagesDiv">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/Images/austin-distel-744oGeqpxPQ-unsplash.jpg" alt="Los Angeles" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/Images/clay-banks-31l-8hY1mt4-unsplash.jpg" alt="Chicago" width="1100" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/Images/ramiro-mendes-sMCBEI5zkqc-unsplash.jpg" alt="New York" width="1100" height="500">
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+    </div>
+    <div class="container-fluid" id="login" style="display: none;">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                    <div class="card rounded shadow shadow-sm">
+                            <div class="card-header">
+                                <h3 class="mb-0">Login</h3>
+                            </div>
+                            <div class="card-body">
+                                <form class="form" id="formLogin" method="GET">
+                                    <div class="form-group">
+                                        <label for="uname1">Username</label>
+                                        <input type="text" class="form-control" name="uname1" id="uname1" required>
+                                       
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control" id="pwd1" required="" >
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Login</button>
+                                </form>
+                            </div>
+                            <!--/card-block-->
+                        </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="container" id="register">
+            <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6 mx-auto">
+                                    <div class="card border-secondary">
+                                        <div class="card-header">
+                                            <h3 class="mb-0 my-2">Create Account</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form class="form" name="form1" method="POST">
+                                                <div class="form-group">
+                                                    <label for="inputName">Name</label>
+                                                    <input type="text" class="form-control" id="inputName" placeholder="full name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputEmail">Email</label>
+                                                    <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="email@gmail.com" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputPhone">Phone</label>
+                                                    <input type="number" class="form-control" id="inputPhone" placeholder="0000000000" required="">
+                                                 </div>
+                                                <div class="form-group">
+                                                    <label for="inputPassword1">Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword1" placeholder="password" title="At least 6 characters with letters and numbers" required="">
+                                                </div>
+                                            </form>
+                                            <div class="form-group">
+                                                    <button type="submit" class="btn btn-success btn-lg float-right" onclick="ValidateEmail(document.form1.email);validatePhone(document.form1.inputPhone);validatePassword(document.write.inputPassword1);>Register</button>
+                                                </div>
+                                                <h4 id = "registeredMsg"></h4>s
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                
+                        </div>
+                        <!--/col-->
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
